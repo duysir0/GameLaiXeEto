@@ -20,4 +20,9 @@ class Obstacle {
         ctx.fillRect(this.x, this.y, this.width, this.height);
         ctx.fill();
     }
+    AutoMove() {
+        if (this.y<=canvas.offsetHeight) {
+            moveDown()
+        }
+    }
 }
