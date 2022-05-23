@@ -1,7 +1,7 @@
 let canvas = document.getElementById('gamelaixe');
 let ctx = canvas.getContext('2d');
 let car = new Car(10, 250, 100, 50, 10);
-let obstacle = new Obstacle(200,0,20, 20, 5)
+let obstacle = new Obstacle(200,10,20, 20, 5)
 car.drawCar(ctx);
 obstacle.drawObstacle(ctx);
 
